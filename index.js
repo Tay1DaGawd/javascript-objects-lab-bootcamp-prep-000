@@ -13,6 +13,6 @@ function deleteFromObjectByKey(object, key) {
   return obj
 }
 function destructivelyDeleteFromObjectByKey(object, key) {
-  delete obj.key
+  delete obj.prop
   return obj
 }
